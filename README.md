@@ -10,3 +10,6 @@ I want to use a two sample t test to analysis if there is a big difference of th
 The output should include a summary table(mean, range...) of the time they used and a figure of rank to time. 
 
 R and "ggplot2" package may be used to complete my workflow.
+
+To open the file, you can use the bash code below.
+Rscript -e "rmarkdown::render('project_chenbo.Rmd')"
