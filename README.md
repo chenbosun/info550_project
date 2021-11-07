@@ -13,3 +13,10 @@ R and "ggplot2" package may be used to complete my workflow.
 
 To open the file, you can use the bash code below.
 Rscript -e "rmarkdown::render('project_chenbo.Rmd')"
+
+
+The make command you need to run is: make project_chenbo.html
+In the makefile, since my code is really simple and easy as well as the data is really clean, there is no need to write each step separatly. So there is only one recipe in the makefile.
+
+
+
