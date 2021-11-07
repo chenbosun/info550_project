@@ -19,4 +19,4 @@ The make command you need to run is: make project_chenbo.html
 In the makefile, since my code is really simple and easy as well as the data is really clean, there is no need to write each step separatly. So there is only one recipe in the makefile.
 
 
-
+I included "activate.R" and the lock file in the folder named "renv", and there is a copy of the lock file in the "code" folder. 
