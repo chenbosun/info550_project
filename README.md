@@ -1,6 +1,5 @@
 # info550_project
 
-
 The dataset I use is from the Kaggle website which is about the rubik's cube solve time. 
 
 The columns I may use are name or rank, time and country. 
@@ -16,6 +15,7 @@ Rscript -e "rmarkdown::render('project_chenbo.Rmd')"
 
 
 The make command you need to run is: make project_chenbo.html
+
 In the makefile, since my code is really simple and easy as well as the data is really clean, there is no need to write each step separatly. So there is only one recipe in the makefile.
 
 
