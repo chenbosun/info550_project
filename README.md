@@ -18,5 +18,11 @@ The make command you need to run is: make project_chenbo.html
 
 In the makefile, since my code is really simple and easy as well as the data is really clean, there is no need to write each step separatly. So there is only one recipe in the makefile.
 
-
 I included "activate.R" and the lock file in the folder named "renv", and there is a copy of the lock file in the "code" folder. 
+
+
+# about docker
+use command "docker pull rocker/tidyverse:chenbo/rocker/tidyverse_final" to pull the image
+after downloading the image to the same folder as where you download other files from my github repository, use command "docker build -t yourname ." to build report
+use command "docker run --name test4 chenbo/rocker/tidyverse_final" to run the container and get the report
+
