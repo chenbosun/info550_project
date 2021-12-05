@@ -22,7 +22,7 @@ I included "activate.R" and the lock file in the folder named "renv", and there 
 
 
 # about docker
-use command "docker pull rocker/tidyverse:chenbo/rocker/tidyverse_final" to pull the image
-after downloading the image to the same folder as where you download other files from my github repository, use command "docker build -t yourname ." to build report
-use command "docker run --name test4 chenbo/rocker/tidyverse_final" to run the container and get the report
+use command "docker pull csun56/night" to pull the image
+after downloading the image to the same folder as where you download other files from my github repository, use command "docker run -it csun56/night" to get report
+
 
