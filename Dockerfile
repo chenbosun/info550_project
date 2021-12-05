@@ -16,4 +16,4 @@ COPY ./ /project/
 
 
 # make container entry point 
-CMD make project_chenbo.html
+CMD /bin/bash
