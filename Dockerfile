@@ -19,4 +19,4 @@ RUN chmod +x /project/code/project_chenbo.Rmd
 WORKDIR /project
 
 # make container entry point 
-CMD make project_chenbo
+CMD /bin/bash
