@@ -22,7 +22,7 @@ I included "activate.R" and the lock file in the folder named "renv", and there 
 
 
 # about docker
-use command "docker pull csun56/night" to pull the image
-after downloading the image to the same folder as where you download other files from my github repository, use command "docker run -it csun56/night" to get report
-
+Use command "docker pull csun56/night" to pull the image
+After downloading the image to the same folder as where you download other files from my github repository, use command "docker run -v your/path:/project -it csun56/night" to mount the image in local.
+In your container, use the command "make" to get the report and open it in your local directory
 
