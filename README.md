@@ -23,6 +23,7 @@ I included "activate.R" and the lock file in the folder named "renv", and there 
 
 # about docker
 Use command "docker pull csun56/night" to pull the image
-After downloading the image, use command "docker run -v your/path:/project -it csun56/night" to mount the image in local and get the report.
+After downloading the image, use command "docker run -v your/path:/project -it csun56/night" to mount the image in local.
+Type "make project_chenbo" to get the report update.
 
 
